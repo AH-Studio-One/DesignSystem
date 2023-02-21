@@ -1,145 +1,29 @@
 {
-  "styles": [
-    {
-      "fonts": {
-        "h1": {
-          "title": "GreatVibes-Regular",
-          "size": 38.0
-        },
-        "h2": {
-          "title": "GreatVibes-Regular",
-          "size": 22.0
-        },
-        "h3": {
-          "title": "GreatVibes-Regular",
-          "size": 20.0
-        },
-        "h4": {
-          "title": "GreatVibes-Regular",
-          "size": 18.0
-        },
-        "h5": {
-          "title": "GreatVibes-Regular",
-          "size": 16.0
-        },
-        "body1": {
-          "title": "GreatVibes-Regular",
-          "size": 12.0
-        },
-        "body2": {
-          "title": "GreatVibes-Regular",
-          "size": 10.0
-        },
-        "body3": {
-          "title": "GreatVibes-Regular",
-          "size": 8.0
-        }
-      },
-      "palette": {
-        "primary": "primary",
-        "secondary": "secondary",
-        "tertiary": "tertiary",
-        "attention": "attention",
-        "background": "background1"
-      },
-      "images": {
-        "primary": "15",
-        "secondary": "3"
-      }
-    },
-    {
-      "fonts": {
-        "h1": {
-          "title": "AvenirNext-Italic",
-          "size": 38.0
-        },
-        "h2": {
-          "title": "AvenirNext-Italic",
-          "size": 22.0
-        },
-        "h3": {
-          "title": "AvenirNext-Italic",
-          "size": 20.0
-        },
-        "h4": {
-          "title": "AvenirNext-Italic",
-          "size": 18.0
-        },
-        "h5": {
-          "title": "AvenirNext-Italic",
-          "size": 16.0
-        },
-        "body1": {
-          "title": "AvenirNext-Italic",
-          "size": 12.0
-        },
-        "body2": {
-          "title": "AvenirNext-Italic",
-          "size": 10.0
-        },
-        "body3": {
-          "title": "AvenirNext-Italic",
-          "size": 8.0
-        }
-      },
-      "palette": {
-        "primary": "primary",
-        "secondary": "secondary",
-        "tertiary": "tertiary",
-        "attention": "attention",
-        "background": "background2"
-      },
-      "images": {
-        "primary": "14",
-        "secondary": "3"
-      }
-    },
-    {
-      "fonts": {
-        "h1": {
-          "title": "Papyrus-Condensed",
-          "size": 38.0
-        },
-        "h2": {
-          "title": "Papyrus-Condensed",
-          "size": 22.0
-        },
-        "h3": {
-          "title": "Papyrus-Condensed",
-          "size": 20.0
-        },
-        "h4": {
-          "title": "Papyrus-Condensed",
-          "size": 18.0
-        },
-        "h5": {
-          "title": "Papyrus-Condensed",
-          "size": 16.0
-        },
-        "body1": {
-          "title": "Papyrus-Condensed",
-          "size": 12.0
-        },
-        "body2": {
-          "title": "Papyrus-Condensed",
-          "size": 10.0
-        },
-        "body3": {
-          "title": "Papyrus-Condensed",
-          "size": 8.0
-        }
-      },
-      "palette": {
-        "primary": "primary",
-        "secondary": "secondary",
-        "tertiary": "tertiary",
-        "attention": "attention",
-        "background": "background3"
-      },
-      "images": {
-        "primary": "11",
-        "secondary": "3"
-      }
-    }
-  ]
+    "designItems": [{
+        "font": [{
+                "name": "h1",
+                "title": "GreatVibes-Regular",
+                "size": 38.0
+            },
+            {
+                "name": "h2",
+                "title": "GreatVibes-Regular",
+                "size": 22
+            },
+            {
+                "name": "h3",
+                "title": "GreatVibes-Regular",
+                "size": 20
+            }
+        ],
+        "pallete": [{
+                "name": "primary",
+                "color": "#FF000044s"
+            },
+            {
+                "name": "secondary",
+                "title": "#FF011144s"
+            }
+        ]
+    }]
 }
