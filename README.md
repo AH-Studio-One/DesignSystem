@@ -4,7 +4,7 @@ UI Design System is used as external module to flavour look and feel of any appl
 
 As a user I can toggle between different looks of application: f.e light mode, dark mode, or funny mode
 
-### Remote uidesignsystem Spec
+### Remote Design Identity Spec
 
 | Property   | Type        |
 |------------|-------------|
@@ -62,30 +62,31 @@ As a user I can toggle between different looks of application: f.e light mode, d
         ]
     }]
 }
+```
 
 ### Architectural Overview
- 
-### Story - System requests list of UI identities to apply diverse looks on views
+// TODO: Add image
 
-#### Narative 1
-``` 
- System requests list of design identities on applicaiton lunch
 
-##### Scenarios (Acceptance Criteria)
+
+### Scenarios (Acceptance Criteria)
 
 ``` Given application has internet connection
 When user launches the application
 Application look and feel (identity) is the latest selection
 System requests list of identities for further use
+```
 
 ``` Given application has NO internet connection
 When user launches the application
 Application look and feel (identity) is the latest selection
+```
 
 ``` Given application has internet connection
 And user launches the application and navigates to identity list
 Application look and feel (identity) is the latest selection
 System requests list of identities for further use
+```
 
 ``` Given application has internet connection
 And user launches the application and navigates to identity list
