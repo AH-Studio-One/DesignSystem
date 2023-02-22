@@ -34,7 +34,7 @@ As a user I can toggle between different looks of application: f.e light mode, d
 ```
 200 RESPONSE      
 {
-    "designItem": [{
+    "items": [{
         "font": [{
                 "name": "h1",
                 "title": "GreatVibes-Regular",

@@ -19,7 +19,13 @@
 		E0F6AA1429A4C68B00B7BDE6 /* LayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1129A4C68B00B7BDE6 /* LayoutProtocol.swift */; };
 		E0F6AA1629A4C74500B7BDE6 /* styles.json in Resources */ = {isa = PBXBuildFile; fileRef = E0F6AA1529A4C74500B7BDE6 /* styles.json */; };
 		E0F6AA1829A4C9AB00B7BDE6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0F6AA1729A4C9AA00B7BDE6 /* README.md */; };
-		E0F6AA1A29A4D6A000B7BDE6 /* UIDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1929A4D6A000B7BDE6 /* UIDesignSystem.swift */; };
+		E0F6AA1A29A4D6A000B7BDE6 /* DesignSystemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */; };
+		E0F6AA1C29A4E68800B7BDE6 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1B29A4E68800B7BDE6 /* Configuration.swift */; };
+		E0F6AA1E29A4EC2700B7BDE6 /* LocalDesignItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */; };
+		E0F6AA2029A4F1C200B7BDE6 /* DesignSystemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */; };
+		E0F6AA2229A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */; };
+		E0F6AA2529A4FBA500B7BDE6 /* PrototypeFontguide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2429A4FBA500B7BDE6 /* PrototypeFontguide.swift */; };
+		E0F6AA2729A4FBC300B7BDE6 /* PrototypePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +61,13 @@
 		E0F6AA1129A4C68B00B7BDE6 /* LayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProtocol.swift; sourceTree = "<group>"; };
 		E0F6AA1529A4C74500B7BDE6 /* styles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = styles.json; sourceTree = "<group>"; };
 		E0F6AA1729A4C9AA00B7BDE6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E0F6AA1929A4D6A000B7BDE6 /* UIDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignSystem.swift; sourceTree = "<group>"; };
+		E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemMapper.swift; sourceTree = "<group>"; };
+		E0F6AA1B29A4E68800B7BDE6 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDesignItem.swift; sourceTree = "<group>"; };
+		E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemLoader.swift; sourceTree = "<group>"; };
+		E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDesignSystemLoader.swift; sourceTree = "<group>"; };
+		E0F6AA2429A4FBA500B7BDE6 /* PrototypeFontguide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeFontguide.swift; sourceTree = "<group>"; };
+		E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +119,15 @@
 		E0F6A9DD29A4C4E700B7BDE6 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				E0F6AA0829A4C53C00B7BDE6 /* Protocols */,
+				E0F6AA2829A4FC5C00B7BDE6 /* DSLoader */,
+				E0F6AA2329A4FB9800B7BDE6 /* Prototype */,
+				E0F6AA0829A4C53C00B7BDE6 /* DSPublicInterface */,
 				E0F6A9DE29A4C4E700B7BDE6 /* DesignSystemApp.swift */,
 				E0F6A9E029A4C4E700B7BDE6 /* ContentView.swift */,
 				E0F6AA1529A4C74500B7BDE6 /* styles.json */,
 				E0F6A9E229A4C4E900B7BDE6 /* Assets.xcassets */,
 				E0F6A9E429A4C4E900B7BDE6 /* Preview Content */,
-				E0F6AA1929A4D6A000B7BDE6 /* UIDesignSystem.swift */,
+				E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -143,14 +157,34 @@
 			path = DesignSystemUITests;
 			sourceTree = "<group>";
 		};
-		E0F6AA0829A4C53C00B7BDE6 /* Protocols */ = {
+		E0F6AA0829A4C53C00B7BDE6 /* DSPublicInterface */ = {
 			isa = PBXGroup;
 			children = (
 				E0F6AA1029A4C68B00B7BDE6 /* FontguideProtocol.swift */,
 				E0F6AA1129A4C68B00B7BDE6 /* LayoutProtocol.swift */,
 				E0F6AA0F29A4C68B00B7BDE6 /* PaletteProtocol.swift */,
 			);
-			path = Protocols;
+			path = DSPublicInterface;
+			sourceTree = "<group>";
+		};
+		E0F6AA2329A4FB9800B7BDE6 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				E0F6AA1B29A4E68800B7BDE6 /* Configuration.swift */,
+				E0F6AA2429A4FBA500B7BDE6 /* PrototypeFontguide.swift */,
+				E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		E0F6AA2829A4FC5C00B7BDE6 /* DSLoader */ = {
+			isa = PBXGroup;
+			children = (
+				E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */,
+				E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */,
+				E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */,
+			);
+			path = DSLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F6AA1229A4C68B00B7BDE6 /* PaletteProtocol.swift in Sources */,
+				E0F6AA2229A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift in Sources */,
+				E0F6AA2729A4FBC300B7BDE6 /* PrototypePalette.swift in Sources */,
 				E0F6A9E129A4C4E700B7BDE6 /* ContentView.swift in Sources */,
-				E0F6AA1A29A4D6A000B7BDE6 /* UIDesignSystem.swift in Sources */,
+				E0F6AA1C29A4E68800B7BDE6 /* Configuration.swift in Sources */,
+				E0F6AA1A29A4D6A000B7BDE6 /* DesignSystemMapper.swift in Sources */,
+				E0F6AA2029A4F1C200B7BDE6 /* DesignSystemLoader.swift in Sources */,
+				E0F6AA2529A4FBA500B7BDE6 /* PrototypeFontguide.swift in Sources */,
+				E0F6AA1E29A4EC2700B7BDE6 /* LocalDesignItem.swift in Sources */,
 				E0F6AA1329A4C68B00B7BDE6 /* FontguideProtocol.swift in Sources */,
 				E0F6A9DF29A4C4E700B7BDE6 /* DesignSystemApp.swift in Sources */,
 				E0F6AA1429A4C68B00B7BDE6 /* LayoutProtocol.swift in Sources */,
