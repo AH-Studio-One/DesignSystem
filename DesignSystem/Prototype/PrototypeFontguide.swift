@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 final class PrototypeFontguide: FontguideProtocol {
     var h1: Font = Font.headline
@@ -24,27 +25,28 @@ final class PrototypeFontguide: FontguideProtocol {
 
     var body3: Font = Font.body
 
-    init(fonts: [LocalFont]? = nil) {
+    init(fonts: [RemoteFont]? = nil) {
         guard let fonts = fonts else { return }
 
+        
         for val in fonts {
             switch val.name {
             case .h1:
-                h1 = Font.custom(val.name.rawValue, size: val.size)
+                h1 = Font.custom(val.title, size: val.size)
             case .h2:
-                h2 = Font.custom(val.name.rawValue, size: val.size)
+                h2 = Font.custom(val.title, size: val.size)
             case .h3:
-                h3 = Font.custom(val.name.rawValue, size: val.size)
+                h3 = Font.custom(val.title, size: val.size)
             case .h4:
-                h4 = Font.custom(val.name.rawValue, size: val.size)
+                h4 = Font.custom(val.title, size: val.size)
             case .h5:
-                h5 = Font.custom(val.name.rawValue, size: val.size)
+                h5 = Font.custom(val.title, size: val.size)
             case .body1:
-                body1 = Font.custom(val.name.rawValue, size: val.size)
+                body1 = Font.custom(val.title, size: val.size)
             case .body2:
-                body2 = Font.custom(val.name.rawValue, size: val.size)
+                body2 = Font.custom(val.title, size: val.size)
             case .body3:
-                body3 = Font.custom(val.name.rawValue, size: val.size)
+                body3 = Font.custom(val.title, size: val.size)
             }
         }
     }

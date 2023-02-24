@@ -6,17 +6,18 @@
 //
 
 import Foundation
+import SwiftUI
 
 final class PrototypePalette: PaletteProtocol {
-    var primary: Color
+    var primary: Color = Color.primary
 
-    var secondary: Color
+    var secondary: Color = Color.secondary
 
-    var tertiary: Color
+    var tertiary: Color = Color.orange
 
-    var attention: Color
+    var attention: Color = Color.red
 
-    var clear: Color
+    var clear: Color = Color.clear
 
-    var background: Color
+    var background: Color = Color.white
 }
