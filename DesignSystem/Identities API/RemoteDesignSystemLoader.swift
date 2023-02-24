@@ -7,13 +7,6 @@
 
 import Foundation
 
-protocol HTTPClient {
-    typealias Result = Swift.Result<(Data, HTTPURLResponse), Error>
-
-    func get(from url: URL, completion: @escaping (Result) -> Void)
-}
-
-
 final class RemoteDesignSystemLoader: DesignSystemLoader {
     private let url: URL
     private let client: HTTPClient

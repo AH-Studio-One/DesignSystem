@@ -9,5 +9,4 @@ import Foundation
 import SwiftUI
 
 var projectFont =  PrototypeFontguide()
-var projectColor = PrototypePalette()
-
+var projectPalette = PrototypePalette()

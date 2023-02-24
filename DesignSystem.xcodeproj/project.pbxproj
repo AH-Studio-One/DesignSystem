@@ -20,7 +20,7 @@
 		E0F6AA1629A4C74500B7BDE6 /* styles.json in Resources */ = {isa = PBXBuildFile; fileRef = E0F6AA1529A4C74500B7BDE6 /* styles.json */; };
 		E0F6AA1829A4C9AB00B7BDE6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0F6AA1729A4C9AA00B7BDE6 /* README.md */; };
 		E0F6AA1A29A4D6A000B7BDE6 /* DesignSystemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */; };
-		E0F6AA1C29A4E68800B7BDE6 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1B29A4E68800B7BDE6 /* Configuration.swift */; };
+		E0F6AA1C29A4E68800B7BDE6 /* GlobalConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1B29A4E68800B7BDE6 /* GlobalConfiguration.swift */; };
 		E0F6AA1E29A4EC2700B7BDE6 /* LocalDesignItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */; };
 		E0F6AA2029A4F1C200B7BDE6 /* DesignSystemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */; };
 		E0F6AA2229A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */; };
@@ -28,6 +28,8 @@
 		E0F6AA2729A4FBC300B7BDE6 /* PrototypePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */; };
 		E0F6AA2B29A8BD7F00B7BDE6 /* RemoteFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2A29A8BD7F00B7BDE6 /* RemoteFont.swift */; };
 		E0F6AA2D29A8BD9300B7BDE6 /* RemotePallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2C29A8BD9300B7BDE6 /* RemotePallete.swift */; };
+		E0F6AA2F29A8E74700B7BDE6 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2E29A8E74700B7BDE6 /* HTTPClient.swift */; };
+		E0F6AA3129A8E81200B7BDE6 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA3029A8E81200B7BDE6 /* ContentViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +66,7 @@
 		E0F6AA1529A4C74500B7BDE6 /* styles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = styles.json; sourceTree = "<group>"; };
 		E0F6AA1729A4C9AA00B7BDE6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemMapper.swift; sourceTree = "<group>"; };
-		E0F6AA1B29A4E68800B7BDE6 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		E0F6AA1B29A4E68800B7BDE6 /* GlobalConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfiguration.swift; sourceTree = "<group>"; };
 		E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDesignItem.swift; sourceTree = "<group>"; };
 		E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemLoader.swift; sourceTree = "<group>"; };
 		E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDesignSystemLoader.swift; sourceTree = "<group>"; };
@@ -72,6 +74,8 @@
 		E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePalette.swift; sourceTree = "<group>"; };
 		E0F6AA2A29A8BD7F00B7BDE6 /* RemoteFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFont.swift; sourceTree = "<group>"; };
 		E0F6AA2C29A8BD9300B7BDE6 /* RemotePallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePallete.swift; sourceTree = "<group>"; };
+		E0F6AA2E29A8E74700B7BDE6 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		E0F6AA3029A8E81200B7BDE6 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E0F6AA1729A4C9AA00B7BDE6 /* README.md */,
+				E0F6A9DE29A4C4E700B7BDE6 /* DesignSystemApp.swift */,
 				E0F6A9DD29A4C4E700B7BDE6 /* DesignSystem */,
 				E0F6A9EE29A4C4E900B7BDE6 /* DesignSystemTests */,
 				E0F6A9F829A4C4E900B7BDE6 /* DesignSystemUITests */,
@@ -123,12 +128,9 @@
 		E0F6A9DD29A4C4E700B7BDE6 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				E0F6AA2929A8BD6B00B7BDE6 /* RemoteModels */,
-				E0F6AA2829A4FC5C00B7BDE6 /* DSLoader */,
-				E0F6AA2329A4FB9800B7BDE6 /* Prototype */,
-				E0F6AA0829A4C53C00B7BDE6 /* DSPublicInterface */,
-				E0F6A9DE29A4C4E700B7BDE6 /* DesignSystemApp.swift */,
-				E0F6A9E029A4C4E700B7BDE6 /* ContentView.swift */,
+				E0F6AA0829A4C53C00B7BDE6 /* DesignSystemSDKInterface */,
+				E0F6AA2829A4FC5C00B7BDE6 /* Identities API */,
+				E0F6AA2329A4FB9800B7BDE6 /* Sample Implementation */,
 				E0F6AA1529A4C74500B7BDE6 /* styles.json */,
 				E0F6A9E229A4C4E900B7BDE6 /* Assets.xcassets */,
 				E0F6A9E429A4C4E900B7BDE6 /* Preview Content */,
@@ -162,34 +164,36 @@
 			path = DesignSystemUITests;
 			sourceTree = "<group>";
 		};
-		E0F6AA0829A4C53C00B7BDE6 /* DSPublicInterface */ = {
+		E0F6AA0829A4C53C00B7BDE6 /* DesignSystemSDKInterface */ = {
 			isa = PBXGroup;
 			children = (
 				E0F6AA1029A4C68B00B7BDE6 /* FontguideProtocol.swift */,
 				E0F6AA1129A4C68B00B7BDE6 /* LayoutProtocol.swift */,
 				E0F6AA0F29A4C68B00B7BDE6 /* PaletteProtocol.swift */,
 			);
-			path = DSPublicInterface;
+			path = DesignSystemSDKInterface;
 			sourceTree = "<group>";
 		};
-		E0F6AA2329A4FB9800B7BDE6 /* Prototype */ = {
+		E0F6AA2329A4FB9800B7BDE6 /* Sample Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				E0F6AA1B29A4E68800B7BDE6 /* Configuration.swift */,
+				E0F6AA1B29A4E68800B7BDE6 /* GlobalConfiguration.swift */,
 				E0F6AA2429A4FBA500B7BDE6 /* PrototypeFontguide.swift */,
 				E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */,
+				E0F6AA3229A8E99600B7BDE6 /* MVVM */,
 			);
-			path = Prototype;
+			path = "Sample Implementation";
 			sourceTree = "<group>";
 		};
-		E0F6AA2829A4FC5C00B7BDE6 /* DSLoader */ = {
+		E0F6AA2829A4FC5C00B7BDE6 /* Identities API */ = {
 			isa = PBXGroup;
 			children = (
-				E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */,
+				E0F6AA2E29A8E74700B7BDE6 /* HTTPClient.swift */,
 				E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */,
 				E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */,
+				E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */,
 			);
-			path = DSLoader;
+			path = "Identities API";
 			sourceTree = "<group>";
 		};
 		E0F6AA2929A8BD6B00B7BDE6 /* RemoteModels */ = {
@@ -199,6 +203,32 @@
 				E0F6AA2C29A8BD9300B7BDE6 /* RemotePallete.swift */,
 			);
 			path = RemoteModels;
+			sourceTree = "<group>";
+		};
+		E0F6AA3229A8E99600B7BDE6 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				E0F6AA2929A8BD6B00B7BDE6 /* RemoteModels */,
+				E0F6AA3629A8EA1300B7BDE6 /* ViewModel */,
+				E0F6AA3329A8E9EF00B7BDE6 /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		E0F6AA3329A8E9EF00B7BDE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0F6A9E029A4C4E700B7BDE6 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0F6AA3629A8EA1300B7BDE6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0F6AA3029A8E81200B7BDE6 /* ContentViewViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,11 +369,13 @@
 				E0F6AA2B29A8BD7F00B7BDE6 /* RemoteFont.swift in Sources */,
 				E0F6A9E129A4C4E700B7BDE6 /* ContentView.swift in Sources */,
 				E0F6AA2D29A8BD9300B7BDE6 /* RemotePallete.swift in Sources */,
-				E0F6AA1C29A4E68800B7BDE6 /* Configuration.swift in Sources */,
+				E0F6AA1C29A4E68800B7BDE6 /* GlobalConfiguration.swift in Sources */,
+				E0F6AA3129A8E81200B7BDE6 /* ContentViewViewModel.swift in Sources */,
 				E0F6AA1A29A4D6A000B7BDE6 /* DesignSystemMapper.swift in Sources */,
 				E0F6AA2029A4F1C200B7BDE6 /* DesignSystemLoader.swift in Sources */,
 				E0F6AA2529A4FBA500B7BDE6 /* PrototypeFontguide.swift in Sources */,
 				E0F6AA1E29A4EC2700B7BDE6 /* LocalDesignItem.swift in Sources */,
+				E0F6AA2F29A8E74700B7BDE6 /* HTTPClient.swift in Sources */,
 				E0F6AA1329A4C68B00B7BDE6 /* FontguideProtocol.swift in Sources */,
 				E0F6A9DF29A4C4E700B7BDE6 /* DesignSystemApp.swift in Sources */,
 				E0F6AA1429A4C68B00B7BDE6 /* LayoutProtocol.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct DesignSystemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ContentViewViewModel(quote: "The first and beset victory is to conquer self", author: "Plato"))
         }
     }
 }

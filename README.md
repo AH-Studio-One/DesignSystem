@@ -1,8 +1,11 @@
 # DesignSystem
 
+--Work in Progress--
+
 UI Design System is used as external module to flavour look and feel of any application
 
 As a user I can toggle between different looks of application: f.e light mode, dark mode, or funny mode
+ 
 
 ### Remote Design Identity Spec
 
@@ -29,7 +32,7 @@ As a user I can toggle between different looks of application: f.e light mode, d
 | `colors`| `String`  | // f.e "#FF000044s"
  
  
-### BE contract
+### Application fetches list of "look and feel identities" from backend using following API contract
 
 ```
 200 RESPONSE      

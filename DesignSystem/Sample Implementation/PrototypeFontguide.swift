@@ -27,7 +27,6 @@ final class PrototypeFontguide: FontguideProtocol {
 
     init(fonts: [RemoteFont]? = nil) {
         guard let fonts = fonts else { return }
-
         
         for val in fonts {
             switch val.name {
