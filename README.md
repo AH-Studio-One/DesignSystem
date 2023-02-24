@@ -74,24 +74,22 @@ As a user I can toggle between different looks of application: f.e light mode, d
 
 ### Scenarios (Acceptance Criteria)
 
-``` Given application has internet connection
+``` 
+Given application has internet connection
 When user launches the application
 Application look and feel (identity) is the latest selection
 System requests list of identities for further use
 ```
 
-``` Given application has NO internet connection
+``` 
+Given application has NO internet connection
 When user launches the application
 Application look and feel (identity) is the latest selection
 ```
 
-``` Given application has internet connection
-And user launches the application and navigates to identity list
-Application look and feel (identity) is the latest selection
-System requests list of identities for further use
-```
-
-``` Given application has internet connection
-And user launches the application and navigates to identity list
+``` 
+Given application has internet connection
+And user launches the application, navigates to identity list
 And taps on any identity
 Application look and feel (identity) changes to newly selected identity
+``` 

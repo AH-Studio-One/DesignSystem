@@ -27,6 +27,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(viewModel: ContentViewViewModel(quote: "The first and beset victory is to conquer self", author: "Plato"))
+        ContentView(viewModel: ContentViewViewModel(quote: "The first and best victory is to conquer self", author: "Plato"))
     }
 }
