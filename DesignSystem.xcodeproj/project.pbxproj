@@ -26,6 +26,8 @@
 		E0F6AA2229A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */; };
 		E0F6AA2529A4FBA500B7BDE6 /* PrototypeFontguide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2429A4FBA500B7BDE6 /* PrototypeFontguide.swift */; };
 		E0F6AA2729A4FBC300B7BDE6 /* PrototypePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */; };
+		E0F6AA2B29A8BD7F00B7BDE6 /* RemoteFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2A29A8BD7F00B7BDE6 /* RemoteFont.swift */; };
+		E0F6AA2D29A8BD9300B7BDE6 /* RemotePallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2C29A8BD9300B7BDE6 /* RemotePallete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDesignSystemLoader.swift; sourceTree = "<group>"; };
 		E0F6AA2429A4FBA500B7BDE6 /* PrototypeFontguide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeFontguide.swift; sourceTree = "<group>"; };
 		E0F6AA2629A4FBC300B7BDE6 /* PrototypePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePalette.swift; sourceTree = "<group>"; };
+		E0F6AA2A29A8BD7F00B7BDE6 /* RemoteFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFont.swift; sourceTree = "<group>"; };
+		E0F6AA2C29A8BD9300B7BDE6 /* RemotePallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePallete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 		E0F6A9DD29A4C4E700B7BDE6 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				E0F6AA2929A8BD6B00B7BDE6 /* RemoteModels */,
 				E0F6AA2829A4FC5C00B7BDE6 /* DSLoader */,
 				E0F6AA2329A4FB9800B7BDE6 /* Prototype */,
 				E0F6AA0829A4C53C00B7BDE6 /* DSPublicInterface */,
@@ -185,6 +190,15 @@
 				E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */,
 			);
 			path = DSLoader;
+			sourceTree = "<group>";
+		};
+		E0F6AA2929A8BD6B00B7BDE6 /* RemoteModels */ = {
+			isa = PBXGroup;
+			children = (
+				E0F6AA2A29A8BD7F00B7BDE6 /* RemoteFont.swift */,
+				E0F6AA2C29A8BD9300B7BDE6 /* RemotePallete.swift */,
+			);
+			path = RemoteModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +336,9 @@
 				E0F6AA1229A4C68B00B7BDE6 /* PaletteProtocol.swift in Sources */,
 				E0F6AA2229A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift in Sources */,
 				E0F6AA2729A4FBC300B7BDE6 /* PrototypePalette.swift in Sources */,
+				E0F6AA2B29A8BD7F00B7BDE6 /* RemoteFont.swift in Sources */,
 				E0F6A9E129A4C4E700B7BDE6 /* ContentView.swift in Sources */,
+				E0F6AA2D29A8BD9300B7BDE6 /* RemotePallete.swift in Sources */,
 				E0F6AA1C29A4E68800B7BDE6 /* Configuration.swift in Sources */,
 				E0F6AA1A29A4D6A000B7BDE6 /* DesignSystemMapper.swift in Sources */,
 				E0F6AA2029A4F1C200B7BDE6 /* DesignSystemLoader.swift in Sources */,
