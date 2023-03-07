@@ -17,11 +17,11 @@
 		E0F6AA1229A4C68B00B7BDE6 /* PaletteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA0F29A4C68B00B7BDE6 /* PaletteProtocol.swift */; };
 		E0F6AA1329A4C68B00B7BDE6 /* FontguideProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1029A4C68B00B7BDE6 /* FontguideProtocol.swift */; };
 		E0F6AA1429A4C68B00B7BDE6 /* LayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1129A4C68B00B7BDE6 /* LayoutProtocol.swift */; };
-		E0F6AA1629A4C74500B7BDE6 /* styles.json in Resources */ = {isa = PBXBuildFile; fileRef = E0F6AA1529A4C74500B7BDE6 /* styles.json */; };
+		E0F6AA1629A4C74500B7BDE6 /* identities.json in Resources */ = {isa = PBXBuildFile; fileRef = E0F6AA1529A4C74500B7BDE6 /* identities.json */; };
 		E0F6AA1829A4C9AB00B7BDE6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0F6AA1729A4C9AA00B7BDE6 /* README.md */; };
 		E0F6AA1A29A4D6A000B7BDE6 /* DesignSystemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */; };
 		E0F6AA1C29A4E68800B7BDE6 /* CompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1B29A4E68800B7BDE6 /* CompositionRoot.swift */; };
-		E0F6AA1E29A4EC2700B7BDE6 /* LocalDesignItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */; };
+		E0F6AA1E29A4EC2700B7BDE6 /* DesignIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1D29A4EC2700B7BDE6 /* DesignIdentity.swift */; };
 		E0F6AA2029A4F1C200B7BDE6 /* DesignSystemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */; };
 		E0F6AA2229A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */; };
 		E0F6AA2529A4FBA500B7BDE6 /* DefaultPrototypeFontguide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6AA2429A4FBA500B7BDE6 /* DefaultPrototypeFontguide.swift */; };
@@ -63,11 +63,11 @@
 		E0F6AA0F29A4C68B00B7BDE6 /* PaletteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteProtocol.swift; sourceTree = "<group>"; };
 		E0F6AA1029A4C68B00B7BDE6 /* FontguideProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontguideProtocol.swift; sourceTree = "<group>"; };
 		E0F6AA1129A4C68B00B7BDE6 /* LayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProtocol.swift; sourceTree = "<group>"; };
-		E0F6AA1529A4C74500B7BDE6 /* styles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = styles.json; sourceTree = "<group>"; };
+		E0F6AA1529A4C74500B7BDE6 /* identities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = identities.json; sourceTree = "<group>"; };
 		E0F6AA1729A4C9AA00B7BDE6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0F6AA1929A4D6A000B7BDE6 /* DesignSystemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemMapper.swift; sourceTree = "<group>"; };
 		E0F6AA1B29A4E68800B7BDE6 /* CompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionRoot.swift; sourceTree = "<group>"; };
-		E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDesignItem.swift; sourceTree = "<group>"; };
+		E0F6AA1D29A4EC2700B7BDE6 /* DesignIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignIdentity.swift; sourceTree = "<group>"; };
 		E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemLoader.swift; sourceTree = "<group>"; };
 		E0F6AA2129A4F2BE00B7BDE6 /* RemoteDesignSystemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDesignSystemLoader.swift; sourceTree = "<group>"; };
 		E0F6AA2429A4FBA500B7BDE6 /* DefaultPrototypeFontguide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPrototypeFontguide.swift; sourceTree = "<group>"; };
@@ -131,7 +131,6 @@
 				E0F6AA0829A4C53C00B7BDE6 /* DesignSystemSDKInterface */,
 				E0F6AA2829A4FC5C00B7BDE6 /* Identities API */,
 				E0F6AA2329A4FB9800B7BDE6 /* Sample Implementation */,
-				E0F6AA1529A4C74500B7BDE6 /* styles.json */,
 				E0F6A9E229A4C4E900B7BDE6 /* Assets.xcassets */,
 				E0F6A9E429A4C4E900B7BDE6 /* Preview Content */,
 			);
@@ -179,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				E0F6AA1B29A4E68800B7BDE6 /* CompositionRoot.swift */,
-				E0F6AA1D29A4EC2700B7BDE6 /* LocalDesignItem.swift */,
+				E0F6AA1D29A4EC2700B7BDE6 /* DesignIdentity.swift */,
 				E0F6AA3229A8E99600B7BDE6 /* MVVM */,
 			);
 			path = "Sample Implementation";
@@ -188,6 +187,7 @@
 		E0F6AA2829A4FC5C00B7BDE6 /* Identities API */ = {
 			isa = PBXGroup;
 			children = (
+				E0F6AA1529A4C74500B7BDE6 /* identities.json */,
 				E0F6AA2929A8BD6B00B7BDE6 /* RemoteModels */,
 				E0F6AA2E29A8E74700B7BDE6 /* HTTPClient.swift */,
 				E0F6AA1F29A4F1C200B7BDE6 /* DesignSystemLoader.swift */,
@@ -344,7 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F6A9E629A4C4E900B7BDE6 /* Preview Assets.xcassets in Resources */,
-				E0F6AA1629A4C74500B7BDE6 /* styles.json in Resources */,
+				E0F6AA1629A4C74500B7BDE6 /* identities.json in Resources */,
 				E0F6AA1829A4C9AB00B7BDE6 /* README.md in Resources */,
 				E0F6A9E329A4C4E900B7BDE6 /* Assets.xcassets in Resources */,
 			);
@@ -382,7 +382,7 @@
 				E0F6AA1A29A4D6A000B7BDE6 /* DesignSystemMapper.swift in Sources */,
 				E0F6AA2029A4F1C200B7BDE6 /* DesignSystemLoader.swift in Sources */,
 				E0F6AA2529A4FBA500B7BDE6 /* DefaultPrototypeFontguide.swift in Sources */,
-				E0F6AA1E29A4EC2700B7BDE6 /* LocalDesignItem.swift in Sources */,
+				E0F6AA1E29A4EC2700B7BDE6 /* DesignIdentity.swift in Sources */,
 				E0F6AA2F29A8E74700B7BDE6 /* HTTPClient.swift in Sources */,
 				E0F6AA1329A4C68B00B7BDE6 /* FontguideProtocol.swift in Sources */,
 				E0F6A9DF29A4C4E700B7BDE6 /* DesignSystemApp.swift in Sources */,

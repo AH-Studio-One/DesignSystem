@@ -8,7 +8,7 @@
 import Foundation
 
 protocol DesignSystemLoader {
-    typealias Result = Swift.Result<[LocalDesignItem], Error>
+    typealias Result = Swift.Result<[DesignIdentity], Error>
 
     func load(completion: @escaping (Result) -> Void)
 }

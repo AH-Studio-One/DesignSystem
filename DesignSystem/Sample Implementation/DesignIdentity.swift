@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct LocalDesignItem: Hashable {
+public struct DesignIdentity: Hashable {
     public let font: [RemoteFont]
     public let pallete: [RemotePallete]
 

@@ -11,7 +11,7 @@ enum DesignSystemMapper {
     private struct Root: Decodable {
         let items: [RemoteDesignItem]
 
-        var identities: [LocalDesignItem] {
+        var identities: [DesignIdentity] {
             return items.map { $0.identity }
         }
     }
@@ -20,8 +20,8 @@ enum DesignSystemMapper {
         let font: [RemoteFont]
         let pallete: [RemotePallete]
 
-        var identity: LocalDesignItem {
-            return LocalDesignItem(font: font.map{$0}, pallete: pallete.map{$0})
+        var identity: DesignIdentity {
+            return DesignIdentity(font: font.map{$0}, pallete: pallete.map{$0})
         }
     }
 
