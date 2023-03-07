@@ -32,7 +32,7 @@ As a user I can toggle between different looks of application: f.e light mode, d
 | `colors`| `String`  | // f.e "#FF000044s"
  
  
-### Application fetches list of "look and feel identities" from backend using following API contract
+### API contract of a list of "look and feel identities"
 
 ```
 200 RESPONSE      

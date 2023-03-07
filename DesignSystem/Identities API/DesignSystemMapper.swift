@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 enum DesignSystemMapper {
     private struct Root: Decodable {
         let items: [RemoteDesignItem]

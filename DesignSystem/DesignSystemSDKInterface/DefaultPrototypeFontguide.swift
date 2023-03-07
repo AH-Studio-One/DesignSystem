@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-final class PrototypeFontguide: FontguideProtocol {
+final class DefaultPrototypeFontguide: FontguideProtocol {
     var h1: Font = Font.headline
 
     var h2: Font = Font.subheadline

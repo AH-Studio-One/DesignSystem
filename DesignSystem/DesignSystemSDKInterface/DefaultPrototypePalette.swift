@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-final class PrototypePalette: PaletteProtocol {
+final class DefaultPrototypePalette: PaletteProtocol {
     var primary: Color = Color.primary
 
     var secondary: Color = Color.secondary

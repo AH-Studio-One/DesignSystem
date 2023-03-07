@@ -8,5 +8,7 @@
 import Foundation
 import SwiftUI
 
-var projectFont =  PrototypeFontguide()
-var projectPalette = PrototypePalette()
+
+
+var projectFont =  DefaultPrototypeFontguide()
+var projectPalette = DefaultPrototypePalette()
